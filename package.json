@@ -1,0 +1,24 @@
+{
+  "name": "first-project-eco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-node5": "^12.0.1",
+    "express": "^4.16.1",
+    "express-graphql": "^0.6.11",
+    "faker": "^4.1.0",
+    "graphql": "^0.11.6",
+    "graphql-custom-types": "^1.2.0",
+    "lodash": "^4.17.4",
+    "pg": "^6.2.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.24.2"
+  }
+}

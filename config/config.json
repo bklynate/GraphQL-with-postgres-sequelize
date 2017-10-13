@@ -1,0 +1,9 @@
+{
+  "development": {
+    "database": "eco_rewrite",
+    "username": "bklynate",
+    "password": "",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
